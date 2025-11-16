@@ -1,7 +1,6 @@
 import type { Presentation } from '../types';
 import { AIKnowledgePackSlides } from './ai-knowledge-pack';
 import { HexoTutorialSlides } from './hexo-tutorial';
-import { HappyNewYearSlides } from './2025-01-01-happy-new-year';
 import { HexoCompleteGuideSlides } from './hexo-complete-guide';
 import { LLMDeepDiveSlides } from './llm-deep-dive';
 
@@ -33,12 +32,5 @@ export const presentations: Presentation[] = [
     description: 'A single-page cheat sheet for setting up and deploying a Hexo blog.',
     slides: HexoTutorialSlides,
     thumbnail: 'https://picsum.photos/seed/hexo/400/225'
-  },
-  {
-    id: 'happy-new-year',
-    name: '2025-01-01 新年快樂',
-    description: 'A festive presentation celebrating the New Year with fireworks and greetings.',
-    slides: HappyNewYearSlides,
-    thumbnail: 'https://picsum.photos/seed/newyear/400/225'
   }
 ];
