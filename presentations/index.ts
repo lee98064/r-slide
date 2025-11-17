@@ -3,6 +3,7 @@ import { AIKnowledgePackSlides } from './ai-knowledge-pack';
 import { HexoTutorialSlides } from './hexo-tutorial';
 import { HexoCompleteGuideSlides } from './hexo-complete-guide';
 import { LLMDeepDiveSlides } from './llm-deep-dive';
+import { LLMDeepResearchSlides } from './llm-deep-research';
 
 export const presentations: Presentation[] = [
   {
@@ -18,6 +19,13 @@ export const presentations: Presentation[] = [
     description: '深入探討大型語言模型的運作原理，包含 Embedding、幻覺現象，以及 Transformer 核心架構。',
     slides: LLMDeepDiveSlides,
     thumbnail: 'https://picsum.photos/seed/llm-deep-dive/400/225'
+  },
+  {
+    id: 'llm-deep-research',
+    name: 'LLM 原理與實作全書',
+    description: '大學等級的 LLM 心智模型，涵蓋資料、訓練、推論、RAG、安全與實務小抄，移除公式但保留工程深度。',
+    slides: LLMDeepResearchSlides,
+    thumbnail: 'https://picsum.photos/seed/llm-research/400/225'
   },
   {
     id: 'hexo-complete-guide',
