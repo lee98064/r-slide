@@ -24,7 +24,7 @@ export const BagOfWords: React.FC = () => {
   };
 
   return (
-    <div className="bg-slate-900 h-full w-full flex flex-col items-center justify-center p-10 text-left relative overflow-hidden">
+    <div className="bg-slate-800 h-full w-full flex flex-col items-center justify-center p-10 text-left relative overflow-hidden">
       {/* Background Grid */}
       <div className="absolute inset-0 opacity-10 pointer-events-none"
         style={{ backgroundImage: 'radial-gradient(#94a3b8 1px, transparent 1px)', backgroundSize: '30px 30px' }}>
